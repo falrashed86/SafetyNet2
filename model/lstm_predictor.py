@@ -11,7 +11,7 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 BASE_DIR = Path(__file__).resolve().parents[1]
 
 MODEL_PATH = BASE_DIR / "model" / "weighted_lstm_model.h5"
-TOKENIZER_PATH = BASE_DIR / "model" / "lstm_tokenizer.pkl"
+TOKENIZER_PATH = BASE_DIR / "model" / "tokenizer.pkl"
 LABELS_PATH = BASE_DIR / "model" / "label_order.pkl"
 
 MAX_LEN = 120
