@@ -7,7 +7,7 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 
 
-BASE_DIR = Path(__file__).resolve().parents[1]
+BASE_DIR = Path(__file__).resolve().parent.parent
 
 MODEL_PATH = BASE_DIR / "model" / "weighted_lstm_model.h5"
 TOKENIZER_PATH = BASE_DIR / "model" / "tokenizer.pkl"
