@@ -89,8 +89,8 @@ def predict_risk(text):
         medium_prob = 0.0
         high_prob = 0.0
         confidence = 0.0
-        risk = "MODEL ERROR"
-        print("MODEL ERROR",e)
+        risk = "MODEL ERROR:" + str(e)
+       # print("MODEL ERROR",e)
 
     return {
         "text": text,
