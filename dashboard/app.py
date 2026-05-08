@@ -1,7 +1,7 @@
 import sys
 import time
 from pathlib import Path
-#ROOT_DIR = Path(__file__).resolve().parent.parent.parent
+ROOT_DIR = Path(__file__).resolve().parent
 
 sys.path.append(str(Path(__file__).resolve().parent.parent))
 from model.text_analyzer import analyze_text
