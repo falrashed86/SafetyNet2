@@ -2,8 +2,8 @@ from pathlib import Path
 import pickle
 import re
 import numpy as np
-
-from tensorflow.keras.models import load_model
+import tensorflow as tf
+from keras.models import load_model
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 
 
@@ -16,7 +16,11 @@ LABELS_PATH = BASE_DIR / "model" / "label_order.pkl"
 MAX_LEN = 120
 
 
-model = load_model(MODEL_PATH, compile=False)
+model = tf.keras.models.load_model(
+    MODEL_PATH,
+    compile=False,
+    safe_mode=False
+    )
 
 with open(TOKENIZER_PATH, "rb") as f:
     tokenizer = pickle.load(f)
