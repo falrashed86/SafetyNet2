@@ -67,10 +67,10 @@ def predict_risk(text):
         medium_prob = float(probs[1])
         high_prob = float(probs[2])
 
-        if high_prob >= 0.07:
+        if high_prob >= 0.10:
             risk = "HIGH"
             confidence = high_prob
-        elif medium_prob >= 0.20:
+        elif medium_prob >= 0.25:
             risk = "MEDIUM"
             confidence = medium_prob
         else:
