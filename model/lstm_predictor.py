@@ -53,7 +53,7 @@ def predict_risk(text):
 
         probs = model.predict(padded, verbose=0)[0]
 
-        low_prob = float(probs[0])
+        '''low_prob = float(probs[0])
         medium_prob = float(probs[1])
         high_prob = float(probs[2])
 
@@ -65,7 +65,21 @@ def predict_risk(text):
             confidence = medium_prob
         else:
             risk = "LOW"
-            confidence = low_prob
+            confidence = low_prob'''
+
+        predicted_class = int(np.argmax(probs))
+
+        risk = ID_TO_LABEL[predicted_class]
+
+        confidence = float(probs[predicted_class])
+
+        low_prob = float(probs[0])
+        medium_prob = float(probs[1])
+        high_prob = float(probs[2])
+
+        print("PROBS:", probs)
+        print("CLASS:", predicted_class)
+        print("RISK:", risk)
 
     except Exception as e:
         # emergency fallback so the Streamlit app still works
