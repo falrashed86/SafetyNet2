@@ -6,8 +6,8 @@ from pathlib import Path
 import numpy as np
 from keras.models import load_model
 #import tensorflow as tf
-from tensorflow.keras.models import load_model
-model=load_model(MODEL_PATH,compile=False)
+from tensorflow.keras.preprocessing.sequence import pad_sequences
+
 
 
 BASE_DIR = Path(__file__).resolve().parents[1]
@@ -27,6 +27,7 @@ def load_assets():
     global model, tokenizer, ID_TO_LABEL
 
     if tokenizer is None:
+        model=load_model(MODEL_PATH,compile=False)
         with open(TOKENIZER_PATH, "rb") as f:
             tokenizer = pickle.load(f)
 
