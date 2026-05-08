@@ -1,10 +1,5 @@
-import streamlit as st
+import sys`nfrom pathlib import Path`n`nROOT_DIR = Path(__file__).resolve().parents[2]`nsys.path.insert(0, str(ROOT_DIR))`n`nimport streamlit as st
 from pathlib import Path
-import sys
-
-BASE_DIR = Path(__file__).resolve().parents[1]
-sys.path.append(str(BASE_DIR))
-
 from model.text_analyzer import analyze_text
 from database.db import init_db, insert_message
 
@@ -64,3 +59,4 @@ if st.button("Send Message"):
         st.write("HIGH:", round(result["high_prob"], 3))
 
         st.success("Message analysed and saved.")
+
