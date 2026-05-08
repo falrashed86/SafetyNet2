@@ -72,7 +72,7 @@ st.markdown(
 # ----------------------------
 # Header
 # ----------------------------
-c1, c2 = st.columns([1.2, 5.8], vertical_alignment="center")
+c1, c2 = st.columns([1.2, 5.8])
 
 with c1:
     if LOGO_PATH.exists():
