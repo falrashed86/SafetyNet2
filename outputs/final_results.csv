@@ -1,0 +1,16 @@
+Dataset,Model,Accuracy,Precision,Recall,F1,AUC
+Custom Dataset,Logistic Regression,0.8421,0.8397,0.8303,0.8328,0.9117
+Custom Dataset,Naive Bayes,0.8421,0.8581,0.827,0.8324,0.931
+Custom Dataset,SVM,0.7763,0.7735,0.7858,0.7756,0.9012
+Custom Dataset,Decision Tree,0.5263,0.5694,0.5498,0.5313,0.6586
+Custom Dataset,KNN,0.6711,0.6728,0.6751,0.6689,0.8642
+Jigsaw Dataset,Logistic Regression,0.9452,0.7374,0.6062,0.6399,0.9563
+Jigsaw Dataset,Naive Bayes,0.9344,0.7726,0.5204,0.5518,0.9244
+Jigsaw Dataset,Decision Tree,0.9219,0.6176,0.6079,0.6125,0.7432
+Combined Dataset,Logistic Regression,0.9429,0.7193,0.5954,0.6281,0.9506
+Combined Dataset,Naive Bayes,0.9331,0.7327,0.5196,0.552,0.9222
+Combined Dataset,SVM,0.9439,0.7249,0.598,0.6249,0.9417
+Combined Dataset,Decision Tree,0.9203,0.6152,0.6102,0.6124,0.7468
+Combined Dataset,KNN,0.7448,0.3747,0.4255,0.3781,0.6279
+Jigsaw Dataset,CNN,0.9425,0.7042,0.6551,0.6765,0.9441
+Jigsaw Dataset,LSTM,0.947,0.7132,0.6577,0.6784,0.9548

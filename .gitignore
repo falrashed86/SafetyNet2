@@ -1,0 +1,6 @@
+*.h5
+*.keras
+*.pkl
+*.joblib
+__pycache__/
+safetynet.db

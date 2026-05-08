@@ -1,0 +1,8 @@
+Dataset,Model,Accuracy,Precision,Recall,F1-score,AUC
+Custom Dataset,Logistic Regression,0.7368,0.7762,0.7137,0.7289,0.8444
+Custom Dataset,Naive Bayes,0.4737,0.5552,0.5012,0.4776,0.804
+Custom Dataset,SVM,0.7105,0.7452,0.6844,0.6944,0.8352
+Custom Dataset,Decision Tree,0.6974,0.7285,0.6677,0.6775,0.787
+Custom Dataset,KNN,0.6579,0.7139,0.627,0.6402,0.811
+Custom Dataset,CNN,0.6053,0.6795,0.6494,0.5857,0.8831
+Custom Dataset,LSTM,0.6184,0.8027,0.6624,0.6293,0.8929

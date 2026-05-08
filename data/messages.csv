@@ -1,0 +1,380 @@
+﻿text,label
+"I am happy 	",LOW
+"I enjoyed my day	",LOW
+"I feel okay	",LOW
+"I like my friends	",LOW
+"I am doing well	",LOW
+I am excited,LOW
+Nice to meet you,LOW
+"I feel good 	",LOW
+"I had fun	",LOW
+"I love this game	",LOW
+"I am relaxed	",LOW
+"How are you?	",LOW
+"Let's play later	",LOW
+"See you tomorrow	",LOW
+"Good luck	",LOW
+"Let's study together	",LOW
+Are you coming over today?,LOW
+"See you later	",LOW
+"Good job	",LOW
+"That was funny	",LOW
+"have a good day	",LOW
+"Hello	",LOW
+"Let's be friends	",LOW
+"What's up?	",LOW
+"Hi	",LOW
+I am going to school,LOW
+I am eating lunch,LOW
+I finished my homework,LOW
+I am watching TV,LOW
+Everything is going fine,LOW
+Thank you for your help,LOW
+That was interesting,LOW
+I enjoyed our conversation,LOW
+Let's meet later,LOW
+It was great talking to you,LOW
+Have a nice day,LOW
+See you soon,LOW
+Take care,LOW
+Good evening,LOW
+I will help you,LOW
+Let's continue,LOW
+That was amazing,LOW
+I like your style,LOW
+Nice work,LOW
+Everything is going well,LOW
+That's correct,LOW
+I am proud of you,LOW
+Let's work together,LOW
+I will try again,LOW
+I enjoy learning,LOW
+This is helpful,LOW
+I am ready,LOW
+That's a good plan,LOW
+I feel relaxed,LOW
+Let's talk later,LOW
+It's a nice day,LOW
+I understand your point,LOW
+I appreciate it,LOW
+You did a good job,LOW
+That made me happy,LOW
+Everything is fine,LOW
+Let's go out,LOW
+I will call you later,LOW
+This is interesting,LOW
+I like your idea,LOW
+I agree with you,LOW
+That sounds great,LOW
+Good luck on your exam,LOW
+I am feeling okay,LOW
+what are you doing?,LOW
+I like this song,LOW
+That was fun,LOW
+I enjoyed the game,LOW
+How was your day?,LOW
+I hope you are doing well,LOW
+I am doing well today,LOW
+Good morning,LOW
+مرحبا كيف الأمور,LOW
+أتمنى لك التوفيق,LOW
+سعيد برؤيتك,LOW
+كل شيء جيد,LOW
+الى اللقاء,LOW
+كان الحديث معك جميلا,LOW
+شكرا لك,LOW
+كيف حالك؟,LOW
+هل انت بخير؟,LOW
+لندرس معا,LOW
+لنكن أصدقاء,LOW
+أتمنى لك يوم سعيد,LOW
+ماذا تفعل؟,LOW
+مرحبا,LOW
+انا سعيد,LOW
+انا مرتاح,LOW
+لنلعب معا,LOW
+اهلا,LOW
+هذا مضحك,LOW
+انا متحمس,LOW
+هذا رائع,LOW
+انا بخير,LOW
+سعيد بلقائك,LOW
+لنلعب معا,LOW
+You need to improve ,MEDIUM
+That behavior is not okay,MEDIUM
+You are making this unpleasant,MEDIUM
+I am disappointed in this,MEDIUM
+You are acting immaturely,MEDIUM
+This is not acceptable,MEDIUM
+You should be more careful,MEDIUM
+That was a bad move,MEDIUM
+You are making things awkward,MEDIUM
+People are getting tired of this,MEDIUM
+You are not helping the team,MEDIUM
+That was not appropriate,MEDIUM
+You should stop doing that,MEDIUM
+This is a waste of time,MEDIUM
+You are being disrespectful,MEDIUM
+I do not like your attitude,MEDIUM
+You are making bad choices,MEDIUM
+That was not smart,MEDIUM
+You keep causing problems,MEDIUM
+You are being unfair,MEDIUM
+That was rude,MEDIUM
+You are not contributing much,MEDIUM
+This could have been better,MEDIUM
+I am not impressed,MEDIUM
+You are not taking this seriously,MEDIUM
+That was a poor choice,MEDIUM
+You need to do better,MEDIUM
+This is not working well,MEDIUM
+That was immature,MEDIUM
+You should think more caerfully,MEDIUM
+This is poorly done,MEDIUM
+That answer was weak,MEDIUM
+You are making this harder,MEDIUM
+This is not helpful,MEDIUM
+That was unnecessary,MEDIUM
+You are not listening,MEDIUM
+Please stop interrupting,MEDIUM
+You are making too many mistakes,MEDIUM
+This is confusing,MEDIUM
+You need to focus more,MEDIUM
+That was careless,MEDIUM
+This is disappointing,MEDIUM
+I expected better than this,MEDIUM
+That could be better,MEDIUM
+You should try again,MEDIUM
+This is not correct,MEDIUM
+That was not a good idea,MEDIUM
+I do not agree with you,MEDIUM
+You are not doing enough effort,MEDIUM
+This is not what I expected from you,MEDIUM
+You keep making the same mistakes,MEDIUM
+This is really disappointing,MEDIUM
+You need to take this more seriously,MEDIUM
+You are not paying attention,MEDIUM
+I expected more from you,MEDIUM
+You are not holding this well,MEDIUM
+This is not good enogh,MEDIUM
+You should think before you act,MEDIUM
+This is not acceptable behavior,MEDIUM
+You need to improve your attitude,MEDIUM
+You are not helping at all,MEDIUM
+This is getting frustrating,MEDIUM
+You are not being careful,MEDIUM
+This is below your level,MEDIUM
+You are not taking responsibility,MEDIUM
+You are not contributing enough,MEDIUM
+You are slowing everyone down,MEDIUM
+This is not how things should be done,MEDIUM
+You are not thinking clearly,MEDIUM
+You are making poor decisions,MEDIUM
+You are not organized at all,MEDIUM
+This is not professional,MEDIUM
+You need to do better than this,MEDIUM
+You are not trying enough,MEDIUM
+You are making unnecessary mistakes,MEDIUM
+This is not your best work,MEDIUM
+You are not being serious,MEDIUM
+You need to step up,MEDIUM
+You are not working efficiently,MEDIUM
+You are not improving,MEDIUM
+This is not acceptable from you,MEDIUM
+You need to change this behavior,MEDIUM
+You are not meeting expectations,MEDIUM
+You are not working efficiently,MEDIUM
+You should try harder next time,MEDIUM
+You are not doing your best,MEDIUM
+هذا ليس بالمستوى المطلوب,MEDIUM
+انت لا تبذل جهدا  كافيا,MEDIUM
+هذا مخيب للآمال,MEDIUM
+انت لا تركز جيدا,MEDIUM
+تكرر نفس الأخطاء,MEDIUM
+هذا غير مقبول,MEDIUM
+يجب ان تتحسن,MEDIUM
+هذا الأداء ضعيف,MEDIUM
+يجب ان تفكر قبل ان تتصرف,MEDIUM
+انت لا تساعد,MEDIUM
+هذا ليس عملا جيدا ,MEDIUM
+تحتاج الى تركيز اكثر,MEDIUM
+انت لا تبذل ما يكفي,MEDIUM
+هذا اقل من المتوقع,MEDIUM
+انت لا تتحمل المسؤولية,MEDIUM
+هذا غير مناسب,MEDIUM
+هذا ليس افضل ما لديك,MEDIUM
+تحتاج ان تكون اكثر جدية,MEDIUM
+انت لاتلتزم بالتعليمات,MEDIUM
+انت لا تأخذ الامر بجدية,MEDIUM
+كان يمكن ان يكون افضل,MEDIUM
+هذا ليس جيدا,MEDIUM
+هذا غير صحيح,MEDIUM
+كان يجب ان تفكر اكثر,MEDIUM
+انت لا تنتبه,MEDIUM
+انت تكرر نفس الأخطاء,MEDIUM
+هذا تصرف غير مناسب,MEDIUM
+انت تجعل الامر اصعب,MEDIUM
+هذا العمل ضعيف,MEDIUM
+انت تحتاج الى التحسن,MEDIUM
+هذا مخيب للآمال,MEDIUM
+انت لا تستمع جيدا,MEDIUM
+هذا ليس ذكيا,MEDIUM
+كان ذلك قرارا ضعيفا,MEDIUM
+انت لا تساعد,MEDIUM
+انت لا تأخذ الامر بجدية,MEDIUM
+هذا ليس مفيدا,MEDIUM
+تصرفك طفولي,MEDIUM
+هذا أسلوب غير محترم,MEDIUM
+هذا العمل غير منظم,MEDIUM
+"You're so stupid	",HIGH
+"Nobody likes you	",HIGH
+I hate you,HIGH
+"You are annoying	",HIGH
+"You are ugly	",HIGH
+"I hate everything	",HIGH
+"I feel left out	",HIGH
+"I feel tired of everything	",HIGH
+"I am not okay	",HIGH
+"I feel ignored	",HIGH
+"I am really frustrated	",HIGH
+"I feel alone	",HIGH
+"I don’t feel good	",HIGH
+"Nobody listens to me	",HIGH
+"I am upset today	",HIGH
+"I feel sad	",HIGH
+"Everyone hates you	",HIGH
+"Go away no one wants you	",HIGH
+"This is your fault	",HIGH
+"You are not good enough	",HIGH
+"You are weird	",HIGH
+You are a joke,HIGH
+You always mess things up,HIGH
+You are not good at anything,HIGH
+You are embarrasinf yourself,HIGH
+This is why nobody likes you,HIGH
+You are useless,HIGH
+You are pathetic,HIGH
+No one cares about you,HIGH
+You are such a loser,HIGH
+This is so dumb,HIGH
+You are not ready,HIGH
+You are frustrating,HIGH
+You are not reliable,HIGH
+You are acting childish,HIGH
+You are not serious about this,HIGH
+You are being difficult,HIGH
+You are making it worse,HIGH
+You are not paying attention,HIGH
+You are careless,HIGH
+This is disappointing,HIGH
+You are irritating,HIGH
+You are not smart,HIGH
+You are acting weird,HIGH
+You don't understand anything,HIGH
+I am tired of you,HIGH
+That was a bad idea,HIGH
+You make everything worse,HIGH
+That was stupid,HIGH
+"I don't like you	",HIGH
+انت سئ جدا,HIGH
+انت محرج,HIGH
+كلامك غبي ,HIGH
+انت عديم الفائدة,HIGH
+انت تافه,HIGH
+لا احد يهتم بك,HIGH
+انت فاشل,HIGH
+ما احبك,HIGH
+لا احبك,HIGH
+لا احد يحبك,HIGH
+انا حزين,HIGH
+لا احد يستمع الي,HIGH
+انت غريب,HIGH
+ااشعر بالوحدة,HIGH
+انا لست بخير,HIGH
+انت قبيح,HIGH
+انت مزعج,HIGH
+كلامك تافه,HIGH
+اكرهك,HIGH
+انت غبي,HIGH
+تعبت من كل شيء,HIGH
+"I want to die	",HIGH
+"kill yourself	",HIGH
+"I will hurt you badly	",HIGH
+"I am going to hurt myself	",HIGH
+"You should die	",HIGH
+You should disappear forever,HIGH
+I will destroy your life,HIGH
+You deserve to die,HIGH
+"I don’t want to live anymore	",HIGH
+"I will kill you	",HIGH
+"Go die	",HIGH
+You won't servive this,HIGH
+I will make your life miserable,HIGH
+I am going to break you,HIGH
+I will track you down,HIGH
+You deserve to be dead,HIGH
+I will destroy everything you love,HIGH
+I will make you suffer,HIGH
+You will regret this,HIGH
+I will find you and hurt you,HIGH
+You are a disaster,HIGH
+You are completely useless,HIGH
+You are hated by everyone,HIGH
+You are waste,HIGH
+You are a bad person,HIGH
+You are rejected,HIGH
+You are not wanted,HIGH
+You are broken,HIGH
+You are dangerous,HIGH
+You should leave forever,HIGH
+You are hated,HIGH
+You are nothing important,HIGH
+You are a problem,HIGH
+You are awful,HIGH
+You are a disgrace,HIGH
+You ruin everything,HIGH
+You are toxic,HIGH
+You are sick,HIGH
+I hate everything about you,HIGH
+You are terrible,HIGH
+You are evil,HIGH
+You should not exist,HIGH
+You are not human,HIGH
+I will destroy you,HIGH
+You are garbage,HIGH
+You are a mistake,HIGH
+You are horrible,HIGH
+You don’t deserve anything,HIGH
+I wish you were gone,HIGH
+You are nothing ,HIGH
+I can't stand you,HIGH
+You are the worst,HIGH
+You are trash,HIGH
+You should be ashamed,HIGH
+You are a failure,HIGH
+You are disgusting,HIGH
+You deserve nothing,HIGH
+You are a loser,HIGH
+Go away forever,HIGH
+You are worthless,HIGH
+I hate you,HIGH
+"Go kill yourself	",HIGH
+راح اقتلك,HIGH
+اقتلك,HIGH
+ساقتلك,HIGH
+اقتل نفسك,HIGH
+ساضربك,HIGH
+يجب ان تموت,HIGH
+سادمرك,HIGH
+لا اريد ان أعيش,HIGH
+لن تعيش طويلا,HIGH
+سالاحقك واؤذيك,HIGH
+سادمرك بالكامل,HIGH
+لن تفلت مني,HIGH
+ساجعلك تندم,HIGH
+ساؤذيك بشدة,HIGH
+حياتك ستنتهي,HIGH
+سانتقم منك,HIGH
+ساحطمك,HIGH
+ساجعلك تعاني,HIGH
+ستعيش في جحيم,HIGH
