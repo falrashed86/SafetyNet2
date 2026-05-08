@@ -6,12 +6,13 @@ from pathlib import Path
 import numpy as np
 from keras.models import load_model
 #import tensorflow as tf
-from tensorflow.keras.preprocessing.sequence import pad_sequences
+from tensorflow.keras.models import load_model
+model=load_model(MODEL_PATH,compile=False)
 
 
 BASE_DIR = Path(__file__).resolve().parents[1]
 
-MODEL_PATH = BASE_DIR / "model" / "weighted_lstm_model.h5"
+MODEL_PATH = BASE_DIR / "model" / "weighted_lstm_model.keras"
 TOKENIZER_PATH = BASE_DIR / "model" / "tokenizer.pkl"
 LABELS_PATH = BASE_DIR / "model" / "label_order.pkl"
 
