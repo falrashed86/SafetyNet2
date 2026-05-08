@@ -134,7 +134,7 @@ def play_beep():
 if "sound_enabled" not in st.session_state:
     st.session_state["sound_enabled"] = False
 
-s1, s2 = st.columns([1.2, 4.8], vertical_alignment="center")
+s1, s2 = st.columns([1.2, 4.8])
 
 with s1:
     if st.button("🔊 Enable sound"):
