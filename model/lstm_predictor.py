@@ -67,13 +67,14 @@ def predict_risk(text):
             risk = "LOW"
             confidence = low_prob
 
-    except Exception:
+    except Exception as e:
         # emergency fallback so the Streamlit app still works
-        low_prob = 0.34
-        medium_prob = 0.33
-        high_prob = 0.33
-        confidence = 0.34
-        risk = "LOW"
+        low_prob = 0.0
+        medium_prob = 0.0
+        high_prob = 0.0
+        confidence = 0.0
+        risk = "MODEL ERROR"
+        print("MODEL ERROR",e)
 
     return {
         "text": text,
