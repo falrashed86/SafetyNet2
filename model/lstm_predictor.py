@@ -15,7 +15,7 @@ LABELS_PATH = BASE_DIR / "model" / "label_order.pkl"
 
 MAX_LEN = 120
 
-model = load_model(MODEL_PATH)
+model = load_model(MODEL_PATH,compile=False)
 
 with open(TOKENIZER_PATH, "rb") as f:
     tokenizer = pickle.load(f)
