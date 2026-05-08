@@ -1,3 +1,4 @@
+import streamlit as st
 import pickle
 import re
 from pathlib import Path
@@ -50,9 +51,10 @@ def predict_risk(text):
 
         seq = tokenizer.texts_to_sequences([cleaned_text])
         padded = pad_sequences(seq, maxlen=MAX_LEN, padding="post", truncating="post")
-
+        st.write("TEXT:",cleaned_text)
+        st.write("SEQ:",seq)
         probs = model.predict(padded, verbose=0)[0]
-
+        st.write("PROBS:",probs)
         '''low_prob = float(probs[0])
         medium_prob = float(probs[1])
         high_prob = float(probs[2])
