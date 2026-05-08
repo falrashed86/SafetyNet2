@@ -9,7 +9,7 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-MODEL_PATH = BASE_DIR / "model" / "weighted_lstm_model.h5"
+MODEL_PATH ="model" / "weighted_lstm_model_fixed.h5"
 TOKENIZER_PATH = BASE_DIR / "model" / "tokenizer.pkl"
 LABELS_PATH = BASE_DIR / "model" / "label_order.pkl"
 

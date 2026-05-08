@@ -1,11 +1,15 @@
 import sys
 import time
 from pathlib import Path
-BASE_DIR = Path(__file__).resolve().parent.parent
-sys.path.append(str(BASE_DIR))
+ROOT_DIR = Path(__file__).resolve().parent.parent.parent
+
+sys.path.append(str(ROOT_DIR))
+
+import streamlit as st
+from model.text_analyzer import analyze_text
 
 import pandas as pd
-import streamlit as st
+
 import streamlit.components.v1 as components
 from PIL import Image
 from streamlit_autorefresh import st_autorefresh
@@ -17,12 +21,13 @@ from database.db import init_db, get_risk_counts, get_recent_high
 # Page setup
 # ----------------------------
 st.set_page_config(page_title="SafetyNet – Parent Dashboard", layout="wide")
-
+st.sidebar.page_link("dashboard/app.py",label="Parent Dashboard", icon="👨‍👩‍👧")
+st.sidebar.page_link("dashboard/pages/1_Child_App.py",label="Child App", icon="🛡 ")
 # ----------------------------
 # Paths
 # ----------------------------
-BASE_DIR = Path(__file__).resolve().parent
-LOGO_PATH = BASE_DIR / "assets" / "logo.png"
+
+LOGO_PATH = ROOT_DIR / "assets" / "logo.png"
 
 # ----------------------------
 # Styling
