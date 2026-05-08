@@ -22,7 +22,7 @@ from database.db import init_db, get_risk_counts, get_recent_high
 # ----------------------------
 st.set_page_config(page_title="SafetyNet – Parent Dashboard", layout="wide")
 #st.sidebar.page_link("dashboard/app.py",label="Parent Dashboard", icon="👨‍👩‍👧")
-st.sidebar.page_link("dashboard/pages/1_Child_App.py",label="Child App", icon="🛡 ")
+st.sidebar.page_link("dashboard/pages/1_Child_App.py",label="Child App")
 # ----------------------------
 # Paths
 # ----------------------------
