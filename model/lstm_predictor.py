@@ -4,7 +4,8 @@ import re
 from pathlib import Path
 
 import numpy as np
-import tensorflow as tf
+from keras.models import load_model
+#import tensorflow as tf
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 
 
@@ -33,7 +34,7 @@ def load_assets():
             ID_TO_LABEL = pickle.load(f)
 
     if model is None:
-        model = tf.keras.models.load_model(MODEL_PATH, compile=False)
+        model = load_model(MODEL_PATH, compile=False)
 
 
 def preprocess_text(text):
