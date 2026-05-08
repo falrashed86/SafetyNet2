@@ -1,28 +1,39 @@
-import sys`nfrom pathlib import Path`n`nROOT_DIR = Path(__file__).resolve().parents[2]`nsys.path.insert(0, str(ROOT_DIR))`n`nimport streamlit as st
+import sys
 from pathlib import Path
+
+ROOT_DIR = Path(__file__).resolve().parents[2]
+sys.path.insert(0, str(ROOT_DIR))
+
+import streamlit as st
+
 from model.text_analyzer import analyze_text
 from database.db import init_db, insert_message
 
 
 st.set_page_config(
-    page_title="SafetyNet Child App",
+    page_title="SafetyNet – Child App",
     page_icon="🛡️",
     layout="centered"
 )
 
 init_db()
 
-LOGO_PATH = BASE_DIR / "dashboard" / "assets" / "logo.png"
+LOGO_PATH = ROOT_DIR / "dashboard" / "assets" / "logo.png"
 
 if LOGO_PATH.exists():
     st.image(str(LOGO_PATH), width=140)
 
 st.title("🛡️ SafetyNet Child App")
-st.write("This page simulates a child sending a message. The message is analysed using the final weighted LSTM model.")
+st.write(
+    "This page simulates a child sending a message. "
+    "The message is analysed using the final weighted LSTM model."
+)
 
 message = st.text_area("Type a message:", height=150)
 
-if st.button("Send Message"):
+send_button = st.button("Send Message")
+
+if send_button:
     if message.strip() == "":
         st.warning("Please type a message first.")
     else:
@@ -39,7 +50,6 @@ if st.button("Send Message"):
             mode=result["mode"]
         )
 
-        # Result shown immediately under button
         st.subheader("Analysis Result")
 
         if result["risk"].upper() == "HIGH":
@@ -59,4 +69,3 @@ if st.button("Send Message"):
         st.write("HIGH:", round(result["high_prob"], 3))
 
         st.success("Message analysed and saved.")
-
