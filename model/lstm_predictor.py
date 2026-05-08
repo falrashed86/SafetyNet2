@@ -5,6 +5,7 @@ from pathlib import Path
 
 import numpy as np
 from keras.models import load_model
+from keras.initializers import Orthogonal
 #import tensorflow as tf
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 
@@ -27,7 +28,11 @@ def load_assets():
     global model, tokenizer, ID_TO_LABEL
 
     if tokenizer is None:
-        model=load_model(MODEL_PATH,compile=False)
+        model=load_model(
+            MODEL_PATH,
+            compile=False,
+            custom_objects={"Orthogonal":Orthogonal}
+            )
         with open(TOKENIZER_PATH, "rb") as f:
             tokenizer = pickle.load(f)
 
